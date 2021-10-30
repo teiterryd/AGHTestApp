@@ -21,5 +21,11 @@ namespace AGHTestApp
         {
             label1.Text = "Ouch! "+ ctr++;  // a comment with extra text
         }
+
+        private void BtnAnother_Click(object sender, EventArgs e)
+        {
+            ctr = 0;
+            label1.Text = "Zeroed Counter";
+        }
     }
 }

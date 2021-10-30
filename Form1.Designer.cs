@@ -30,6 +30,7 @@
         {
             this.btnDoNotTouch = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnAnother = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnDoNotTouch
@@ -55,11 +56,23 @@
             this.label1.Text = "zzzzz";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnAnother
+            // 
+            this.btnAnother.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnAnother.Location = new System.Drawing.Point(115, 143);
+            this.btnAnother.Name = "btnAnother";
+            this.btnAnother.Size = new System.Drawing.Size(157, 23);
+            this.btnAnother.TabIndex = 2;
+            this.btnAnother.Text = "Another Button";
+            this.btnAnother.UseVisualStyleBackColor = false;
+            this.btnAnother.Click += new System.EventHandler(this.BtnAnother_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(390, 218);
+            this.Controls.Add(this.btnAnother);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnDoNotTouch);
             this.Name = "Form1";
@@ -73,6 +86,7 @@
 
         private System.Windows.Forms.Button btnDoNotTouch;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAnother;
     }
 }
 
