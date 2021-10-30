@@ -11,6 +11,7 @@ namespace AGHTestApp
 {
     public partial class Form1 : Form
     {
+        int ctr = 0;
         public Form1()
         {
             InitializeComponent();
@@ -18,7 +19,7 @@ namespace AGHTestApp
 
         private void BtnDoNotTouch_Click(object sender, EventArgs e)
         {
-            label1.Text = "Ouch!";
+            label1.Text = "Ouch! "+ ctr++;
         }
     }
 }
