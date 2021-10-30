@@ -19,7 +19,7 @@ namespace AGHTestApp
 
         private void BtnDoNotTouch_Click(object sender, EventArgs e)
         {
-            label1.Text = "Ouch! "+ ctr++;  // a comment
+            label1.Text = "Ouch! "+ ctr++;  // a comment with extra text
         }
     }
 }
