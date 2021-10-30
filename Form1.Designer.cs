@@ -63,7 +63,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnDoNotTouch);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "GitHub Tester";
             this.ResumeLayout(false);
 
         }
